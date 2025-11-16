@@ -5,7 +5,7 @@ const app = express();
 app.use(bodyParser.json());
 
 // VERIFY TOKEN YOU WILL ENTER IN META
-const VERIFY_TOKEN = "my_verify_token_here";
+const VERIFY_TOKEN = "geraldverify123";
 
 // 1️⃣ VERIFICATION ENDPOINT (Facebook calls this first)
 app.get("/webhook", (req, res) => {
